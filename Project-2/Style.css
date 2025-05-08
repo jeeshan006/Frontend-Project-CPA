@@ -6,7 +6,7 @@
 .header-container{
     height: 160px;
     width: 100vw;
-    background: orange;
+    background: rgb(255, 115, 0);
 }
 .nav-container{
     position: relative;
@@ -54,17 +54,138 @@
    height: 100vh;
    width: 100vw;
    display: flex;
-   background: orange;
+   background: rgb(255, 115, 0);
 } 
 .left-img{
     width: 25%;
     height: 100%;
 }
-.input-box{
+.box-container{
     width: 50%;
     height: 100%;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+.box-container h1{
+    font-size: 47px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+.input-box{
+    display: flex;
+    gap: 10px;
+}
+.loc-box{
+    height: 55px;
+    background: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+
+}
+.loc-box input{
+    height: 40px;
+    width: 200px;
+    /* border-radius: 10px; */
+    outline: none;
+    border: none;
+}
+.loc-box i{
+    font-size: 25px;
+    color: red;
+}
+.search-box{
+    height: 55px;
+    background: white;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.search-box input{
+    height: 40px;
+    width: 350px;
+    /* border-radius: 10px; */
+    outline: none;
+    border: none;
+}
+.search-box i{
+   font-size: 25px;
+}
+.card-container{
+    /* background: green; */
+    display: flex;
+    gap: 20px;
+}
+.card{
+    background: white;
+    height: 270px;
+    width: 100%;
+    border-radius: 20px;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+}
+
+
 .right-img{
     width: 25%;
     height: 100%;
 }
+/* ===================================================== */
+
+
+.food-container{
+    height: 100vh;
+    width: 100vw;
+    /* background: green; */
+    padding: 130px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+}
+.food-card img{
+   height: 100%;
+   width: 100%;
+   cursor: pointer;
+}
+
+
+/* ======================================================= */
+
+.insta-container{
+    height: 55vh;
+    width: 100vw;
+    /* background: green; */
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.insta-container h1{
+    font-size: 26px;
+    font-weight: 800;
+}
+.insta-card{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+   text-align: center;
+   cursor: pointer;
+}
+.insta-card img{
+    height: 80%;
+    width: 80%;
+    cursor: pointer;
+}
+
+/* ============================================== */
+.rest-container{
+    height: 100vh;
+    width: 100vw;
+    background: red;
+
+}
+
+
