@@ -49,73 +49,22 @@
     border-radius: 20px;
 }
 /* ======================================================= */
-.main-container{
-    height: 600px;
-    width: 100vw;
-    background: orange;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    
-}
-.left
-.main-text{
-    font-size: 28px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 10px;
 
+.main-container {
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   background: orange;
+} 
+.left-img{
+    width: 25%;
+    height: 100%;
 }
 .input-box{
- display: flex; 
- gap: 20px; 
-  
+    width: 50%;
+    height: 100%;
 }
-.main-text h1{
-    color: white;
-}
-.loc-box{
-    height: 60px;
-    background: white;
-    border-radius: 20px;
-    padding: 10px 10px;
-
-}
-.loc-box input{
-    height: 40px;
-    width: 250px;
-    /* border-radius: 10px; */
-    outline: none;
-    border: none;
-}
-.loc-box i{
-    font-size: 25px;
-    color: red;
-}
-.search-box{
-    height: 60px;
-    background: white;
-    border-radius: 20px;
-    padding: 10px 10px;
-}
-.search-box input{
-    height: 40px;
-    width: 350px;
-    /* border-radius: 10px; */
-    outline: none;
-    border: none;
-}
-.search-box i{
-   font-size: 25px;
-}
-.main-card{
-    background: green;
-    display: flex;
-    gap: 20px;
-}
-.card{
-    background: red;
-    height: 250px;
-    width: 35%;
+.right-img{
+    width: 25%;
+    height: 100%;
 }
